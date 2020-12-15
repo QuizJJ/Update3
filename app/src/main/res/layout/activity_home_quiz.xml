@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityHomeQuiz">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_select_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/azul_claro"
+        app:title="Selecione o Quiz"
+        app:titleTextColor="@color/branco"
+        />
+
+    <Button
+        android:id="@+id/quiz_comida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comida"
+        android:layout_below="@id/toolbar_select_quiz"
+        android:background="@drawable/shape_button_select"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        />
+
+    <Button
+        android:id="@+id/quiz_futebol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Futebol"
+        android:layout_below="@id/quiz_comida"
+        android:background="@drawable/shape_button_select"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        />
+
+    <Button
+        android:id="@+id/quiz_historia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Historia"
+        android:layout_below="@id/quiz_futebol"
+        android:background="@drawable/shape_button_select"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        />
+
+    <Button
+        android:id="@+id/quiz_gerais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conhecimentos Gerais"
+        android:layout_below="@id/quiz_historia"
+        android:background="@drawable/shape_button_select"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        />
+
+</RelativeLayout>
