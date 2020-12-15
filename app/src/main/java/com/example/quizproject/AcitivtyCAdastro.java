@@ -22,6 +22,7 @@ public class AcitivtyCAdastro extends AppCompatActivity {
     private EditText email;
     private EditText senha;
     private Button salvarCadastro;
+    private Button Teste;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
